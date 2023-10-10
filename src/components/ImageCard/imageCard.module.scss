@@ -1,0 +1,48 @@
+    .container {
+        position: relative;
+        width: max-content;
+        height: max-content;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &::before {
+            transition: 350ms;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+            opacity: 0;
+            z-index: 1;
+            background-color: rgba(255, 0, 0, 0.233);
+        }
+        &:hover::before{    
+            opacity: 1;
+            transition: 300ms;
+        }
+      }
+
+
+@media (max-width: 1660px) {
+        .container{
+            margin-bottom: 10px;       
+        }
+}
+
+@media (max-width: 1600px) {
+        .container{
+            margin-bottom: 20px;     
+        }
+    
+}
+
+@media (max-width: 1200px) {
+        .container{
+            margin-bottom: 20px;     
+        }
+}
+
+@media (max-width: 780px) {
+        .container{
+            margin-bottom: 20px;     
+        }
+}

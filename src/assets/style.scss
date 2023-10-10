@@ -1,0 +1,11 @@
+@import url(./reset.scss);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    .wrapper{
+        max-width: 1660px;
+        min-height: max-content;
+        margin: 0 auto;   
+    }
+}
